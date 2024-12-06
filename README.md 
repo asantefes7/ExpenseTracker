@@ -1,0 +1,75 @@
+# Expense Tracker
+The goal of this project was to design and develop a basic Expense Tracker application using Python Programming Language. 
+The ideal purpose of the application is to allow users to track their personal expenses by adding individual records, 
+viewing all expenses, calculating totals, adding expenses with specific elements such as categories, descriptions, 
+and amounts, and potentially generating reports. 
+This project aimed to utilize and integrate software engineering principles such as requirements specification, 
+system design, development, testing, documentation, and maintenance.
+An easy-to-use Expense Tracker built with Python (Flask) and SQLite, allowing users to track their expenses. 
+The app offers both a web-based interface (Flask) and a command-line interface (CLI) for interacting with expenses.
+
+# Technologies Used
+- Python: Backend Language
+- Flask: Web framework for building the app
+- SQLite: Database for storing expenses
+- JavaScript: Used for the frontend web interface interaction
+HTML/CSS: For the web interface design 
+
+## License 
+This is project is open-source and available under the MIT License. 
+
+
+## Features
+- Add, edit, and delete expenses
+- View a list of all expenses
+- Calculate and display total expenses
+- Filter expenses by category and date range
+- Command-line interface (CLI) for managing expenses in the terminal
+
+## Setup Instructions
+- Create a Python virtual environment
+python3 -m venv expense-tracker-env
+
+- Activate the virtual environment for macOS/Linux
+source expense-tracker-env/bin/activate
+
+- For Windows
+expense-tracker-env\Scripts\activate
+
+- Instal dependencies
+Install the required package using pip: 
+pip install -r requirements.txt
+
+- Set up the Database
+The app uses SQLite for the database, which is automatically set up when you run the app. 
+If required, you can initialize the database manually by running the following command inside 
+the Python shell: 
+from your_app import db
+db.create_all()
+
+- Run the app
+You can run the app in either Flask (web-based) or CLI mode: 
+Flask Mode (Web-based):
+python app.py
+
+You might want to open your browser and naviagate to http://127.0.0.1:5000  to access the 
+web-based interface. 
+
+CLI Mode (Command-line Interface): 
+python app.py
+At this point, just follow the interactive menu in your terminal to add, view, and manage expenses. 
+
+- Accessing the web interface
+Once the Flask server is running, open a web browser and go to http://127.0.0.1:5000. 
+You can use the web-based interface to add, edit, delete, and view expenses. 
+
+- Stopping the app
+to stop the Flask server, use CTRL + C in the terminal. 
+
+Follow the steps below to set up the project on your local machine:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/asantefes7/ExpenseTracker.git
+cd ExpenseTracker
